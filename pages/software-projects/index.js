@@ -2,6 +2,7 @@
 import { useState } from "react";
 
 import * as classes from "../../styles/classes";
+import Head from "next/head";
 
 export const getStaticProps = async () => {
   let response = await fetch("https://api.github.com/users/AnmarHani/repos");
@@ -21,6 +22,8 @@ export const getStaticProps = async () => {
   };
 };
 export default function Index(props) {
+
+
   const [query, setQuery] = useState(props.repositories);
 
   const filterRepositories = (event) => {

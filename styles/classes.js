@@ -16,3 +16,4 @@ export const flexRowContainer = "d-flex justify-content-around align-items-cente
 export const categoriesContainer = "d-flex justify-content-around align-items-center m-5"
 export const flexColContainer = "d-flex flex-column"
 export const filterContainer = "filter-container "
+
